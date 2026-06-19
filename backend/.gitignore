@@ -1,0 +1,24 @@
+# ===================================================================
+# AeroMigrate Backend Git Ignore
+# ===================================================================
+
+# Maven build outputs
+target/
+*.class
+
+# Compiled files
+*.jar
+*.war
+*.ear
+
+# Environment & Secrets
+.env
+.env.local
+.env.*
+application.properties.local
+application.properties.dev
+application.properties.prod
+
+# Log files
+*.log
+logs/
